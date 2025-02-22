@@ -6,7 +6,7 @@ const store = useTasksStore();
 <template>
   <div class="filters">
     <div>
-      <p>Filter by state</p>
+      <p>Filter by status</p>
       <div class="badges">
         <div
           @click="store.setFilter('todo')"
